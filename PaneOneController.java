@@ -35,7 +35,7 @@ public class PaneOneController implements ViewControllerInterface{
     }
     
     public void initialize(URL url, ResourceBundle rb) {
-        selectedView.set(getClass().getResource("PaneOne.fxml"));
+        //selectedView.set(getClass().getResource("PaneOne.fxml"));
     }    
     
 }

@@ -18,8 +18,7 @@ public class PaneTwoController implements ViewControllerInterface{
     @Override
     public URL getSelectedView() {
         return selectedView.get();
-    }
-    
+    }    
     
     @FXML
     public void goPaneOneFromTwo(){
@@ -27,7 +26,7 @@ public class PaneTwoController implements ViewControllerInterface{
     }
     
     public void initialize(URL url, ResourceBundle rb) {
-        selectedView.set(getClass().getResource("PaneTwo.fxml"));
+        //selectedView.set(getClass().getResource("PaneTwo.fxml"));
     }  
 }
 
