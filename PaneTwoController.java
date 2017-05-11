@@ -1,9 +1,7 @@
 package screenswitcher;
 
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.ResourceBundle;
 import javafx.beans.property.ReadOnlyObjectProperty;
 import javafx.beans.property.ReadOnlyObjectWrapper;
 import javafx.fxml.FXML;
@@ -27,4 +25,9 @@ public class PaneTwoController implements ViewControllerInterface{
     public void goPaneOneFromTwo(){
         selectedView.set(getClass().getResource("PaneOne.fxml"));
     }
+    
+    public void initialize(URL url, ResourceBundle rb) {
+        selectedView.set(getClass().getResource("PaneTwo.fxml"));
+    }  
 }
+

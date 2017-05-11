@@ -8,7 +8,7 @@
 
 <BorderPane fx:id="panetwo" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="screenswitcher.PaneTwoController">
     <top>
-        <Button text="GO TO PANE ONE" onAction="#goPaneOneFromTwo" fx:id="buttonone" />
+        <Button text="GO TO PANE ONE" onAction="#goPaneOneFromTwo" fx:id="buttontwo" />
     </top>
     <center>
         
